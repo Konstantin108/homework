@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Hamburger/app-v2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hamburger/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hamburger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hamburger/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 2/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 2/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 2/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1b5RcRmKhUUTaZX2VpeN8tgNyd7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Базовый курс JS/6й урок/ДЗ/Корзина" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="" />
+      <created>1587920046286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587920046286</updated>
+      <workItem from="1587920049553" duration="177000" />
+      <workItem from="1587920244287" duration="307000" />
+      <workItem from="1587920764567" duration="15435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1587935722666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1587935722666" />
+    <state x="-1363" y="168" width="865" height="962" maximized="true" key="dock-window-1" timestamp="1587934903613">
+      <screen x="-1440" y="180" width="1440" height="860" />
+    </state>
+    <state x="-1363" y="168" width="865" height="962" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1587934903613" />
+  </component>
+</project>

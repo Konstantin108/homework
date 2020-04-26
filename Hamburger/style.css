@@ -35,19 +35,12 @@ body {
 
 header {
     height: 120px;
-    display: flex;
-    justify-content: flex-end;
     background-color: #4a4a4a;
-    align-items: center;
 }
 
 footer {
     height: 120px;
-    display: flex;
     background-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .products {
@@ -59,8 +52,8 @@ footer {
 
 .product-item {
     margin-right: 30px;
-    width: 140px;
-    min-height: 210px;
+    width: 240px;
+    min-height: 310px;
     transition: .3s;
     display: flex;
     flex-direction: column;
