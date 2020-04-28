@@ -4,6 +4,8 @@
     <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hamburger/app-v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hamburger/app-v2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hamburger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hamburger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hamburger/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hamburger/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Базовый курс JS/6й урок/ДЗ/Basket" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Анимация CSS + JS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,6 +57,10 @@
       <workItem from="1587920244287" duration="307000" />
       <workItem from="1587920764567" duration="16202000" />
       <workItem from="1588063920213" duration="822000" />
+      <workItem from="1588079110020" duration="5826000" />
+      <workItem from="1588085051722" duration="1498000" />
+      <workItem from="1588087505213" duration="789000" />
+      <workItem from="1588089070858" duration="11803000" />
     </task>
     <servers />
   </component>
@@ -62,10 +68,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1587935722666">
+    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1588098568692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1587935722666" />
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588098568692" />
     <state x="-1363" y="168" width="865" height="962" maximized="true" key="dock-window-1" timestamp="1587937036431">
       <screen x="-1440" y="180" width="1440" height="860" />
     </state>

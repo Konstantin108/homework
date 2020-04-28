@@ -1,0 +1,8 @@
+суммирование и вывод в HTML
+
+способы суммировнаия объектов массива .reduce,
+	 for (let i = 0; i < array.length; i++) {
+                    sum += +array[i];
+
+добавление изображений в качестве свойств объекта
+	  {id:3, title: 'Shampoo', price: 350, img: "img\\shampoo.jpg" },

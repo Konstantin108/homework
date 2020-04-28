@@ -1,6 +1,5 @@
 'use strict';
 
-
 class ProductList {
     constructor(container = '.products') {
         this.container = container;
@@ -40,16 +39,11 @@ class ProductItem {
     render() {
         return `<div class="product-item" data-id="${this.id}">
                     <h3>${this.title}</h3>
-                    <p class="price">${this.price}</p>
+                    <p class="price">${this.price}&#x20bd;</p>
                     <p class="calorie">${this.calorie} ккал</p>
-                    <button
-                            type="button"
-                            class="by-btn"
-                            data-id = "${this.id}"
-                            data-price = "${this.price}"
-                            data-calorie = "${this.calorie}">
+                    <button class="by-btn">
                         В корзину
-                        </button>
+                    </button>
                 </div>`;
     }
 }
@@ -95,14 +89,9 @@ class StuffingElem {
     render() {
         return `<div class="stuffing-item" data-id="${this.id}">
                     <h3>${this.title}</h3>
-                    <p class="price">${this.price}</p>
+                    <p class="price">${this.price}&#x20bd;</p>
                     <p class="calorie">${this.calorie} ккал</p>
-                    <button
-                            type="button"
-                            class="by-btn"
-                            data-id = "${this.id}"
-                            data-price = "${this.price}"
-                            data-calorie = "${this.calorie}">
+                    <button class="by-btn">
                         В корзину
                     </button>
                 </div>`;
@@ -149,14 +138,9 @@ class ToppingElem {
     render() {
         return `<div class="topping-item" data-id="${this.id}">
                     <h3>${this.title}</h3>
-                    <p class="price">${this.price}</p>
+                    <p class="price">${this.price}&#x20bd;</p>
                     <p class="calorie">${this.calorie} ккал</p>
-                    <button
-                            type="button"
-                            class="by-btn"
-                            data-id = "${this.id}"
-                            data-price = "${this.price}"
-                            data-calorie = "${this.calorie}">
+                    <button class="by-btn">
                         В корзину
                     </button>
                 </div>`;
@@ -165,89 +149,156 @@ class ToppingElem {
 
 new ToppingList();
 
+class Value {
+    constructor() {
+
+        this.addBtn();
+    }
+
+    addBtn() {
+
+        let buttons = document.querySelectorAll('button');
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function (event) {
+                handleClick(event);
+            });
+        });
+
+        function handleClick(clickButtonEvent) {
+            let cardNode = clickButtonEvent.target.parentNode;
+            const card = {
+                wrap: cardNode,
+                price: cardNode.querySelector('.price'),
+                calorie: cardNode.querySelector('.calorie')
+            };
+
+            const priceOfProduct = card.price.innerHTML;
+            const calorieOfProduct = card.calorie.innerHTML;
+            const allProductsPrice = [];
+            const allProductsCalories = [];
+            allProductsPrice.push(parseInt(priceOfProduct));
+            let sum = 0;
+            let sumAfter = '';
+            allProductsCalories.push(parseInt(calorieOfProduct));
+            let sumOfCal = 0;
+            let sumOfCalAfter = '';
+
+            function allProductsPriceResult(array) {
+                for (let i = 0; i < array.length; i++) {
+                    sum += +array[i];
+                    sumAfter = sum;
+                }
+            }
+
+            allProductsPriceResult(allProductsPrice);
+
+            function allProductsCaloriesResult(array) {
+                for (let i = 0; i < array.length; i++) {
+                    sumOfCal += +array[i];
+                    sumOfCalAfter = sumOfCal;
+                }
+            }
+
+            allProductsCaloriesResult(allProductsCalories);
+
+            function renderInBasket(value) {
+                let result = +value;
+                const blockForSum = document.querySelector('.summ');
+                blockForSum.innerHTML = +blockForSum.innerHTML + result;
+
+            }
+
+            renderInBasket(sumAfter);
+
+            function renderInBasketCal(valueCal) {
+                let calResult = +valueCal;
+                const blockForSumCal = document.querySelector('.summOfCal');
+                blockForSumCal.innerHTML = +blockForSumCal.innerHTML + calResult;
+
+            }
+
+            renderInBasketCal(sumOfCalAfter);
+
+            let productsContainer = document.querySelector('.products');
+            let stuffingsContainer = document.querySelector('.stuffings');
+            let toppingsContainer = document.querySelector('.toppings');
+
+            function hideContainer() {
+                productsContainer.classList.add('hide');
+                stuffingsContainer.classList.add('visibilityStuffings');
+            }
+
+            if (stuffingsContainer.classList.contains('visibilityStuffings')) {
+                toppingsContainer.classList.add('visibility-toppings');
+            }
+
+            hideContainer();
+        }
+    }
+}
+
+new Value();
+
+// class Basket {
+//     constructor(value) {
+//         this._renderInBasket(value);
+//     }
+//
+//     _renderInBasket(summOfProducts) {
+//         let result = `${summOfProducts}`;
+//         const blockForSum = document.querySelector('.summ');
+//         blockForSum.insertAdjacentHTML('afterbegin', result);
+//     }
+// }
+//
+// new Basket();
+//
 // let buttons = document.querySelectorAll('button');
 // buttons.forEach(function (button) {
 //     button.addEventListener('click', function (event) {
-//         handleClick(event);
+//         let id = event.target.dataset.id;
+//         let price = event.target.dataset.price;
+//         let calorie = event.target.dataset.calorie
+//         basket.addProduct({id: id, price: price, calorie: calorie});
 //     });
 // });
 //
-// function handleClick(clickButtonEvent) {
-//     let cardNode = clickButtonEvent.target.parentNode;
-//     const card = {
-//         wrap: cardNode,
-//         price: cardNode.querySelector('.price'),
-//         calorie: cardNode.querySelector('.calorie')
-//     };
+// let basket = {
+//     productsInBasket: {},
 //
-//     const priceOfProduct = card.price.innerHTML;
-//     const calorieOfProduct = card.calorie.innerHTML;
-//     const allProductsPrice = [];
-//     const allProductsCalories = [];
-//     allProductsPrice.push(parseInt(priceOfProduct));
-//     let sum = 0;
+//     addProduct(product) {
+//         this.addProductToObject(product);
+//         this.renderProductInBasket(product);
+//     },
 //
-//     function allProductsPriceResult(array) {
-//
-//         for (let i = 0; i < array.length; i++) {
-//             sum += array[i];
+//     addProductToObject(product) {
+//         if (this.productsInBasket[product.id] == undefined) {
+//             this.productsInBasket[product.id] = {
+//                 price: product.price,
+//                 calorie: product.calorie,
+//                 count: 1
+//             }
+//         } else {
+//             this.productsInBasket[product.id].count++;
 //         }
-//     }
+//     },
 //
-//     allProductsPriceResult(allProductsPrice);
-//     const blockForSum = document.querySelector('.summ');
-//     blockForSum.insertAdjacentHTML('afterbegin', sum);
-// }
-
-//--------------------------------------------Вот эта часть кода---------------------------------------------
-
-let buttons = document.querySelectorAll('button');
-buttons.forEach(function (button) {
-    button.addEventListener('click', function (event) {
-        let id = event.target.dataset.id;
-        let price = event.target.dataset.price;
-        let calorie = event.target.dataset.calorie
-        basket.addProduct({id: id, price: price, calorie: calorie});
-    });
-});
-
-let basket = {
-    productsInBasket: {},
-
-    addProduct(product) {
-        this.addProductToObject(product);
-        this.renderProductInBasket(product);
-    },
-
-    addProductToObject(product) {
-        if (this.productsInBasket[product.id] == undefined) {
-            this.productsInBasket[product.id] = {
-                price: product.price,
-                calorie: product.calorie,
-                count: 1
-            }
-        } else {
-            this.productsInBasket[product.id].count++;
-        }
-    },
-
-    renderProductInBasket(product) {
-        let productExist = document.querySelector(`.productCount[data-id="${product.id}"]`);
-        if (productExist) {
-            productExist.textContent++;
-            return;
-        }
-        let productRow = `
-            <tr>
-                <th scope="row">${product.id}</th>
-                <td class="product-exist-count">${product.price}</td>
-                <td>${product.calorie}</td>
-                <td class="productCount" data-id="${product.id}">1</td>
-            </tr>    
-        `;
-        let tbody = document.querySelector('tbody');
-        tbody.insertAdjacentHTML('beforeend', productRow);
-    }
-};
-
-//-------------------------------------------------------------------------------------------------------------
+//     renderProductInBasket(product) {
+//         let productExist = document.querySelector(`.productCount[data-id="${product.id}"]`);
+//         if (productExist) {
+//             productExist.textContent++;
+//             return;
+//         }
+//
+//         let productRow = `
+//             <tr>
+//                 <th scope="row">${product.id}</th>
+//                 <td class="product-exist-count">${product.price}</td>
+//                 <td>${product.calorie}</td>
+//                 <td class="productCount" data-id="${product.id}">1</td>
+//             </tr>
+//         `;
+//         let tbody = document.querySelector('tbody');
+//         tbody.insertAdjacentHTML('beforeend', productRow);
+//     }
+// };
