@@ -150,7 +150,7 @@ p {
     background-color: #e1e1e1;
     outline: none;
     transition: .3s;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
 }

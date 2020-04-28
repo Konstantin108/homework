@@ -42,7 +42,14 @@ class ProductItem {
                     <h3>${this.title}</h3>
                     <p class="price">${this.price}</p>
                     <p class="calorie">${this.calorie} ккал</p>
-                    <button class="by-btn">В корзину</button>
+                    <button
+                            type="button"
+                            class="by-btn"
+                            data-id = "${this.id}"
+                            data-price = "${this.price}"
+                            data-calorie = "${this.calorie}">
+                        В корзину
+                        </button>
                 </div>`;
     }
 }
@@ -60,9 +67,9 @@ class StuffingList {
 
     _fetchProducts() {
         this.goods = [
-            {id: 1, title: 'С сыром', price: 10, calorie: 20},
-            {id: 2, title: 'С салатом', price: 20, calorie: 5},
-            {id: 3, title: 'С картофелем', price: 15, calorie: 10}
+            {id: 3, title: 'С сыром', price: 10, calorie: 20},
+            {id: 4, title: 'С салатом', price: 20, calorie: 5},
+            {id: 5, title: 'С картофелем', price: 15, calorie: 10}
         ];
     }
 
@@ -90,7 +97,14 @@ class StuffingElem {
                     <h3>${this.title}</h3>
                     <p class="price">${this.price}</p>
                     <p class="calorie">${this.calorie} ккал</p>
-                    <button class="by-btn">В корзину</button>
+                    <button
+                            type="button"
+                            class="by-btn"
+                            data-id = "${this.id}"
+                            data-price = "${this.price}"
+                            data-calorie = "${this.calorie}">
+                        В корзину
+                    </button>
                 </div>`;
     }
 }
@@ -108,8 +122,8 @@ class ToppingList {
 
     _fetchProducts() {
         this.goods = [
-            {id: 1, title: 'приправы', price: 15, calorie: 0},
-            {id: 2, title: 'майонез', price: 20, calorie: 5}
+            {id: 6, title: 'приправы', price: 15, calorie: 0},
+            {id: 7, title: 'майонез', price: 20, calorie: 5}
         ];
     }
 
@@ -137,45 +151,103 @@ class ToppingElem {
                     <h3>${this.title}</h3>
                     <p class="price">${this.price}</p>
                     <p class="calorie">${this.calorie} ккал</p>
-                    <button class="by-btn">В корзину</button>
+                    <button
+                            type="button"
+                            class="by-btn"
+                            data-id = "${this.id}"
+                            data-price = "${this.price}"
+                            data-calorie = "${this.calorie}">
+                        В корзину
+                    </button>
                 </div>`;
     }
 }
 
 new ToppingList();
 
+// let buttons = document.querySelectorAll('button');
+// buttons.forEach(function (button) {
+//     button.addEventListener('click', function (event) {
+//         handleClick(event);
+//     });
+// });
+//
+// function handleClick(clickButtonEvent) {
+//     let cardNode = clickButtonEvent.target.parentNode;
+//     const card = {
+//         wrap: cardNode,
+//         price: cardNode.querySelector('.price'),
+//         calorie: cardNode.querySelector('.calorie')
+//     };
+//
+//     const priceOfProduct = card.price.innerHTML;
+//     const calorieOfProduct = card.calorie.innerHTML;
+//     const allProductsPrice = [];
+//     const allProductsCalories = [];
+//     allProductsPrice.push(parseInt(priceOfProduct));
+//     let sum = 0;
+//
+//     function allProductsPriceResult(array) {
+//
+//         for (let i = 0; i < array.length; i++) {
+//             sum += array[i];
+//         }
+//     }
+//
+//     allProductsPriceResult(allProductsPrice);
+//     const blockForSum = document.querySelector('.summ');
+//     blockForSum.insertAdjacentHTML('afterbegin', sum);
+// }
+
+//--------------------------------------------Вот эта часть кода---------------------------------------------
+
 let buttons = document.querySelectorAll('button');
 buttons.forEach(function (button) {
     button.addEventListener('click', function (event) {
-        handleClick(event);
+        let id = event.target.dataset.id;
+        let price = event.target.dataset.price;
+        let calorie = event.target.dataset.calorie
+        basket.addProduct({id: id, price: price, calorie: calorie});
     });
 });
 
-function handleClick(clickButtonEvent) {
-    let cardNode = clickButtonEvent.target.parentNode;
-    const card = {
-        wrap: cardNode,
-        price: cardNode.querySelector('.price'),
-        calorie: cardNode.querySelector('.calorie')
-    };
+let basket = {
+    productsInBasket: {},
 
-    const priceOfProduct = card.price.innerHTML;
-    const calorieOfProduct = card.calorie.innerHTML;
-    const allProductsPrice = [];
-    const allProductsCalories = [];
-    allProductsPrice.push(parseFloat(priceOfProduct));
-    let sum = 0;
+    addProduct(product) {
+        this.addProductToObject(product);
+        this.renderProductInBasket(product);
+    },
 
-    function allProductsPriceResult(array) {
-
-        for (let i = 0; i < array.length; i++) {
-            sum += array[i];
+    addProductToObject(product) {
+        if (this.productsInBasket[product.id] == undefined) {
+            this.productsInBasket[product.id] = {
+                price: product.price,
+                calorie: product.calorie,
+                count: 1
+            }
+        } else {
+            this.productsInBasket[product.id].count++;
         }
+    },
+
+    renderProductInBasket(product) {
+        let productExist = document.querySelector(`.productCount[data-id="${product.id}"]`);
+        if (productExist) {
+            productExist.textContent++;
+            return;
+        }
+        let productRow = `
+            <tr>
+                <th scope="row">${product.id}</th>
+                <td class="product-exist-count">${product.price}</td>
+                <td>${product.calorie}</td>
+                <td class="productCount" data-id="${product.id}">1</td>
+            </tr>    
+        `;
+        let tbody = document.querySelector('tbody');
+        tbody.insertAdjacentHTML('beforeend', productRow);
     }
+};
 
-    allProductsPriceResult(allProductsPrice);
-    const blockForSum = document.querySelector('.summ');
-    blockForSum.insertAdjacentHTML('afterbegin', sum);
-
-
-}
+//-------------------------------------------------------------------------------------------------------------
