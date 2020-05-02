@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex-grow: 1;
+}
+
+.center-static {
+    padding: 0 calc(50% - 570px);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4a4a4a;
+    align-items: center;
+}
+
+footer {
+    height: 120px;
+    display: flex;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    margin-right: 30px;
+    width: 140px;
+    min-height: 210px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.product-item:hover {
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #f44336;
+}
+
+p {
+    font-size: 20px;
+}
+
+.oops-img {
+    width: 100px;
+    height: 70px;
+}
+
+.btn-cart {
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #666666;
+    border: 1px solid #acacac;
+    width: 320px;
+    height: 52px;
+    background-color: #e1e1e1;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.by-btn {
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #666666;
+    border: 1px solid #acacac;
+    width: 100px;
+    height: 40px;
+    background-color: #e1e1e1;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cart:hover,
+.by-btn:hover {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+
+.last {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+
+.last_special_color {
+    color: #f44336;
+}
+
+.summ {
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #666666;
+    border: 1px solid #acacac;
+    width: 260px;
+    height: 52px;
+    background-color: #e1e1e1;
+    outline: none;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
