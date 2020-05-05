@@ -73,7 +73,7 @@ footer {
 .product-item:hover {
     box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
-    /*transform: scale(1.1);*/
+    transform: scale(1.1);
 }
 
 h3 {
@@ -88,6 +88,11 @@ p {
 .oops-img {
     width: 100px;
     height: 70px;
+}
+
+.oops-img-in-cart {
+    width: 70px;
+    height: 50px;
 }
 
 .btn-cart {
@@ -145,14 +150,35 @@ p {
     color: #f44336;
 }
 
-.desc {
-    border: 1px solid #c0c0c040;
-    padding: 15px
-}
-.cart{
+.cart {
     position: relative;
+    display: flex;
 }
-.cart-block{
+
+.search-field{
+    height: 50px;
+    font-size: 22px;
+}
+
+.search{
+    background-color: #4a4a4a;
+    border: none;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+}
+
+.search:hover{
+    color: #f44336;
+}
+
+.search:active{
+    transform: scale(1.1);
+}
+
+.cart-block {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
     border-radius: 5px;
     box-sizing: border-box;
@@ -165,10 +191,11 @@ p {
     width: 300px;
 }
 
-.invisible{
+.invisible {
     display: none;
 }
-.cart-block:before{
+
+.cart-block:before {
     content: '';
     width: 0;
     height: 0;
@@ -180,7 +207,14 @@ p {
     border-bottom: 10px solid white;
 }
 
-.del-btn{
+.desc{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.del-btn {
     margin-top: 5px;
     background-color: #2f2a2d;
     padding: 5px 15px;
@@ -190,42 +224,54 @@ p {
     transition: all ease-in-out .4s;
     cursor: pointer;
 }
-.del-btn:hover{
+
+.del-btn:hover {
     background-color: #fafafa;
     color: #2f2a2d;
     border: 1px solid #2f2a2d;
 }
+
 .cart-item {
     display: flex;
     justify-content: space-between;
 }
-.cart-item:not(:last-child){
+
+.cart-item:not(:last-child) {
     margin-bottom: 20px;
 }
-.product-bio{
+
+.product-bio {
     display: flex;
 }
-.cart-item img{
+
+.cart-item img {
     align-self: flex-start;
     margin-right: 15px;
 }
-.product-single-price{
+
+.product-single-price {
     color: #474747;
     font-size: 0.5em;
 }
-.product-price{
+
+.product-price {
     margin-left: 30px;
+    font-size: 16px;
 }
-.product-desc{
+
+.product-desc {
     max-width: 150px;
 }
+
 .product-quantity {
     margin-top: 15px;
     font-size: 0.75em;
 }
-.right-block{
+
+.right-block {
     text-align: right;
 }
+
 .btn-search {
     background-color: transparent;
     border: none;
@@ -235,14 +281,17 @@ p {
     bottom: 5px;
     right: 0;
 }
-.search-form{
+
+.search-form {
     position: relative;
     margin-right: 50px;
     display: inline-block;
 }
-.search-field:focus{
+
+.search-field:focus {
     outline: none;
 }
+
 .search-field {
     box-sizing: border-box;
     width: 200px;
