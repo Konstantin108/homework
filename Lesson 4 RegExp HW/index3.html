@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Третье задание</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#" class="form" id="myform">
+    <div>
+        <label>
+            <input type="text" placeholder="Ваше имя" id="name" name="name">
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="tel" placeholder="Ваш телефон" id="phone" name="phone">
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="email" placeholder="Ваш E-mail" id="email" name="email">
+        </label>
+    </div>
+    <textarea type="text" class="block-for-text" placeholder="Текст обращения"></textarea>
+    <button id="submit">Отправить</button>
+</form>
+
+<script>
+    'use strict';
+
+    class Validator {
+        constructor(form) {
+            this.patterns = {
+                name: /^[a-zа-яё]+$/i,
+                phone: /^\+7\(\d{3}\)\d{3}-\d{4}$/,
+                email: /^[\w._-]+@\w+\.[a-z]{2,4}$/i
+            };
+            this.errors = {
+                name: 'Имя содержит только буквы',
+                phone: 'Телефон подчиняется шаблону +7(000)000-0000',
+                email: 'E-mail выглядит как mymail@mail.ru,<br>или my.mail@mail.ru, или my-mail@mail.ru'
+            };
+            this.errorClass = 'error-msg';
+            this.form = form;
+            this.valid = false;
+            this._validateForm();
+        }
+
+        _validateForm() {
+            let errors = [...document.getElementById(this.form).querySelectorAll(`.${this.errorClass}`)];
+            for (let error of errors) {
+                error.remove();
+            }
+            let formFields = [...document.getElementById(this.form).getElementsByTagName('input')];
+            for (let field of formFields) {
+                this._validate(field);
+            }
+            if (![...document.getElementById(this.form).querySelectorAll('.invalid')].length) {
+                this.valid = true;
+            }
+        }
+
+        _validate(field) {
+            if (this.patterns[field.name]) {
+                if (!this.patterns[field.name].test(field.value)) {
+                    field.classList.add('invalid');
+                    this._addErrorMsg(field);
+                    this._watchField(field);
+                }
+            }
+        }
+
+        _addErrorMsg(field) {
+            let error = `<div class="${this.errorClass}">${this.errors[field.name]}</div> `;
+            field.parentNode.insertAdjacentHTML('beforeend', error);
+        }
+
+        _watchField(field) {
+            field.addEventListener('input', () => {
+                let error = field.parentNode.querySelector(`.${this.errorClass}`);
+                if (this.patterns[field.name].test(field.value)) {
+                    field.classList.remove('invalid');
+                    field.classList.add('valid');
+                    if (error) {
+                        error.remove();
+                    }
+                } else {
+                    field.classList.remove('valid');
+                    field.classList.add('invalid');
+                    if (!error) {
+                        this._addErrorMsg(field);
+                    }
+                }
+            });
+        }
+    }
+
+    window.onload = () => {
+        document.getElementById('myform').addEventListener('submit', e => {
+            const valid = new Validator('myform');
+            if (!valid.valid) {
+                e.preventDefault();
+            }
+        })
+    }
+
+    // let form = function getForm() {
+    //     let name = document.querySelector('.name').value;
+    //     let correctName = name.replace(/\d/g, '').replace(/\s{2,}/g, ' ').replace(/[.,\/#!$%\^&\*;:{}=\-_+@`?\[\]'"~()<>|\\]/g, "");
+    //
+    //     let phone = document.querySelector('.phone').value;
+    //     let correctPhone = phone.match(/\d+/g).join('');
+    //     let newPhone = correctPhone.replace(/^8/, '+7');
+    //     alert(`${correctName} ${newPhone}`);
+    // };
+    //
+    // let btn = document.querySelector('button').addEventListener('click', form);
+
+</script>
+</body>
+</html>

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 3/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +12,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Продвинутый курс JS/4й урок/Решение ДЗ" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -77,6 +74,10 @@
       <workItem from="1588695164479" duration="1121000" />
       <workItem from="1588701304962" duration="924000" />
       <workItem from="1588702324346" duration="844000" />
+      <workItem from="1588703297943" duration="6932000" />
+      <workItem from="1588710567774" duration="9131000" />
+      <workItem from="1588720000340" duration="911000" />
+      <workItem from="1588788268933" duration="4858000" />
     </task>
     <servers />
   </component>
@@ -84,10 +85,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1588702089078">
+    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1588796491606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588702089078" />
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588796491606" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1588414834053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -96,5 +97,13 @@
       <screen x="-1440" y="180" width="1440" height="860" />
     </state>
     <state x="-1175" y="160" width="912" height="1022" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588442292049" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588703679008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588703679008" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588703675102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588703675102" />
   </component>
 </project>
