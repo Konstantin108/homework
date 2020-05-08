@@ -155,12 +155,12 @@ p {
     display: flex;
 }
 
-.search-field{
+.search-field {
     height: 50px;
     font-size: 22px;
 }
 
-.search{
+.search {
     background-color: #4a4a4a;
     border: none;
     color: white;
@@ -170,11 +170,11 @@ p {
     outline: none;
 }
 
-.search:hover{
+.search:hover {
     color: #f44336;
 }
 
-.search:active{
+.search:active {
     transform: scale(1.1);
 }
 
@@ -191,7 +191,6 @@ p {
     width: 300px;
 }
 
-.inVisibleCart,
 .invisible {
     display: none;
 }
@@ -208,7 +207,7 @@ p {
     border-bottom: 10px solid white;
 }
 
-.desc{
+.desc {
     min-height: 100px;
     display: flex;
     justify-content: space-between;

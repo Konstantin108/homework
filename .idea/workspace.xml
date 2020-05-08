@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 5/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 5/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 5/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Продвинутый курс JS/4й урок/Решение ДЗ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Продвинутый курс JS/5й урок/Решение ДЗ" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -80,7 +83,9 @@
       <workItem from="1588788268933" duration="5373000" />
       <workItem from="1588846026373" duration="1536000" />
       <workItem from="1588867796292" duration="1107000" />
-      <workItem from="1588882069371" duration="7396000" />
+      <workItem from="1588882069371" duration="7906000" />
+      <workItem from="1588923634930" duration="5767000" />
+      <workItem from="1588938429263" duration="716000" />
     </task>
     <servers />
   </component>
@@ -88,10 +93,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1588882425498">
+    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1588930290895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588882425498" />
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588930290895" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1588414834053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
