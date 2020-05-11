@@ -13,18 +13,14 @@
     <div class="top">
         <header class="center-static">
             <div class="cart">
-                <form action="#" class="search-form" @submit.prevent="filter">
-                    <input type="text" class="search-field" v-model="searchLine">
-                    <button class="btn search" type="submit">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </form>
+                <user-search ref="userSearch"></user-search>
                 <cart ref="cart"></cart>
             </div>
         </header>
         <main class=" center-static">
             <products ref="products"></products>
         </main>
+        <error ref="error"></error>
     </div>
     <footer>
         <p class="last">&copy; 2017 Historical Games. All rights reserved | Design by
@@ -34,6 +30,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="searchLine.js"></script>
 <script src="CartComp.js"></script>
 <script src="ProductComp.js"></script>
 <script src="main.js"></script>

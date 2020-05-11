@@ -301,3 +301,9 @@ p {
     border: none;
     border-bottom: 2px solid #fafafa;
 }
+
+.error{
+    width: 100px;
+    height: 100px;
+    background-color: #f44336;
+}
