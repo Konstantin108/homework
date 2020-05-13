@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/4bd251a57a.js" crossorigin="anonymous"></script>
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    <div class="top">
+        <header class="center-static">
+            <div class="cart">
+                <filter-el></filter-el>
+                <cart ref="cart"></cart>
+            </div>
+        </header>
+        <main class=" center-static">
+            <products ref="products"></products>
+            <error ref="error"></error>
+        </main>
+    </div>
+    <footer>
+        <p class="last">&copy; 2017 Historical Games. All rights reserved | Design by
+            <span class="last_special_color">W3layouts</span>
+        </p>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/cartComp.js"></script>
+<script src="js/ProductComp.js"></script>
+<script src="js/FilterComp.js"></script>
+<script src="js/ErrorComp.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

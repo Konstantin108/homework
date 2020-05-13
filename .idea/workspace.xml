@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="" />
+    <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.11.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Продвинутый курс JS/7й урок/Код урока(готовый вариант)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -95,6 +97,7 @@
       <workItem from="1589292760141" duration="622000" />
       <workItem from="1589324520891" duration="753000" />
       <workItem from="1589378423271" duration="4326000" />
+      <workItem from="1589398907095" duration="3061000" />
     </task>
     <servers />
   </component>
@@ -102,10 +105,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1589380880812">
+    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1589384832136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589380880812" />
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589384832136" />
     <state x="2674" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@1920.0.1920.1040" timestamp="1589227588873" />
     <state x="2368" y="171" key="SettingsEditor" timestamp="1589221338421">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -116,6 +119,10 @@
       <screen x="-1440" y="180" width="1440" height="860" />
     </state>
     <state x="-1167" y="162" width="1054" height="962" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589382263859" />
+    <state x="672" y="97" width="583" height="843" key="find.popup" timestamp="1589400307651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="97" width="583" height="843" key="find.popup/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589400307651" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588703679008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
