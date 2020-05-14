@@ -6,7 +6,7 @@ const app = new Vue({
         userSearch: '',
     },
     methods: {
-        getJson(url){
+        getJson(url) {
             return fetch(url)
                 .then(result => result.json())
                 .catch(error => {
@@ -38,7 +38,16 @@ const app = new Vue({
                 });
         },
         deleteJson(url, data) {
-
+            return fetch(url, {
+                method: 'del',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            }).then(result => result.json())
+                .catch(error => {
+                    this.$refs.error.setError(error);
+                });
         },
     },
     mounted() {

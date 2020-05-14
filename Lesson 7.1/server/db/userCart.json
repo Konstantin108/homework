@@ -3,19 +3,19 @@
     "countGoods": 2,
     "contents": [
         {
-            "quantity": 5,
+            "quantity": 21,
             "id_product": 124,
             "product_name": "Клавиатура",
             "price": 1600
         },
         {
-            "quantity": 6,
+            "quantity": 21,
             "id_product": 457,
             "product_name": "Геймпад",
             "price": 3000
         },
         {
-            "quantity": 10,
+            "quantity": 39,
             "id_product": 123,
             "product_name": "Ноутбук",
             "price": 45600
@@ -39,7 +39,7 @@
             "price": 1600
         },
         {
-            "quantity": 4,
+            "quantity": 37,
             "id_product": 456,
             "product_name": "Мышка",
             "price": 1000
@@ -67,6 +67,168 @@
             "id_product": 123,
             "product_name": "Ноутбук",
             "price": 45600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Мышка",
+            "price": 1000
+        },
+        {
+            "quantity": 1,
+            "id_product": 123,
+            "product_name": "Ноутбук",
+            "price": 45600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "Клавиатура",
+            "price": 1600
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Геймпад",
+            "price": 3000
         },
         {
             "quantity": 1,
