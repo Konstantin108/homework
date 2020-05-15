@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 7.1/public/js/cartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/public/js/cartComp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 7.1/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/cartRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/cartRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/db/userCart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.11.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1я четверть/Продвинутый курс JS/7й урок/Код урока(готовый вариант)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Сайт игр" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -51,7 +48,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,7 +102,11 @@
       <workItem from="1589378423271" duration="4326000" />
       <workItem from="1589398907095" duration="5979000" />
       <workItem from="1589407704331" duration="192000" />
-      <workItem from="1589449126282" duration="3526000" />
+      <workItem from="1589449126282" duration="7314000" />
+      <workItem from="1589458159628" duration="738000" />
+      <workItem from="1589475867945" duration="3038000" />
+      <workItem from="1589494378878" duration="139000" />
+      <workItem from="1589561308432" duration="1046000" />
     </task>
     <servers />
   </component>
@@ -113,15 +114,15 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1589451205875">
+    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1589494516636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589451205875" />
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589494516636" />
     <state x="2674" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@1920.0.1920.1040" timestamp="1589227588873" />
-    <state x="2368" y="171" key="SettingsEditor" timestamp="1589221338421">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="448" y="171" key="SettingsEditor" timestamp="1589494474731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="448" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588949054273" />
+    <state x="448" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589494474731" />
     <state x="2368" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@1920.0.1920.1040" timestamp="1589221338421" />
     <state x="-1167" y="162" width="1054" height="962" maximized="true" key="dock-window-1" timestamp="1589382263859">
       <screen x="-1440" y="180" width="1440" height="860" />
