@@ -758,5 +758,25 @@
         "time": "25 May 2020, 12:29:19 am",
         "prod_name": "Ноутбук",
         "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:35:56 am",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:35:57 am",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:35:57 am",
+        "prod_name": "Геймпад",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:35:58 am",
+        "prod_name": "Клавиатура",
+        "action": "add"
     }
 ]
