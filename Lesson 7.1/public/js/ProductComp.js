@@ -24,7 +24,7 @@ Vue.component('products', {
     },
     template: `
         <div class="products">
-            <product v-for="item of filtered" :key="item.id_product" :img="imgCatalog" :product="item"></product>
+            <product ref="refref" v-for="item of filtered" :key="item.id_product" :img="imgCatalog" :product="item"></product>
         </div>
     `
 });

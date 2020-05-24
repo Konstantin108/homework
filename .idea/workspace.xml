@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="0b72f34e-c75c-4159-963a-83fe6f091690" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 6/js/cartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 6/js/cartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/public/js/ProductComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/public/js/ProductComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/public/js/cartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/public/js/cartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/cartRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/cartRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/db/userCart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 7.1/server/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 7.1/server/handler.js" afterDir="false" />
+    </list>
+>>>>>>> homework7
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +59,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,7 +111,23 @@
       <workItem from="1589292760141" duration="622000" />
       <workItem from="1589324520891" duration="753000" />
       <workItem from="1589378423271" duration="4326000" />
-      <workItem from="1589398907095" duration="3061000" />
+      <workItem from="1589398907095" duration="5979000" />
+      <workItem from="1589407704331" duration="192000" />
+      <workItem from="1589449126282" duration="7314000" />
+      <workItem from="1589458159628" duration="738000" />
+      <workItem from="1589475867945" duration="3038000" />
+      <workItem from="1589494378878" duration="139000" />
+      <workItem from="1589561308432" duration="1982000" />
+      <workItem from="1589647194085" duration="3217000" />
+      <workItem from="1589650442954" duration="763000" />
+      <workItem from="1589651318299" duration="296000" />
+      <workItem from="1589655743967" duration="2267000" />
+      <workItem from="1589665833175" duration="955000" />
+      <workItem from="1589723383012" duration="76000" />
+      <workItem from="1589725619040" duration="349000" />
+      <workItem from="1589726062406" duration="5446000" />
+      <workItem from="1590095298950" duration="2171000" />
+      <workItem from="1590173726750" duration="1212000" />
     </task>
     <servers />
   </component>
@@ -103,24 +135,25 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="297" key="FileChooserDialogImpl" timestamp="1589384832136">
+    <state x="-874" y="426" key="FileChooserDialogImpl" timestamp="1590096819222">
+      <screen x="-1440" y="180" width="1440" height="860" />
+    </state>
+    <state x="-874" y="426" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@-1440.180.1440.860" timestamp="1590096819222" />
+    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589728189506" />
+    <state x="2674" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@1920.0.1920.1040" timestamp="1589726773695" />
+    <state x="448" y="171" key="SettingsEditor" timestamp="1589647382546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589384832136" />
-    <state x="2674" y="297" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@1920.0.1920.1040" timestamp="1589227588873" />
-    <state x="2368" y="171" key="SettingsEditor" timestamp="1589221338421">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="448" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1588949054273" />
+    <state x="448" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589647382546" />
     <state x="2368" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@1920.0.1920.1040" timestamp="1589221338421" />
     <state x="-1167" y="162" width="1054" height="962" maximized="true" key="dock-window-1" timestamp="1589382263859">
       <screen x="-1440" y="180" width="1440" height="860" />
     </state>
     <state x="-1167" y="162" width="1054" height="962" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589382263859" />
-    <state x="672" y="97" width="583" height="843" key="find.popup" timestamp="1589400307651">
+    <state x="672" y="97" width="583" height="843" key="find.popup" timestamp="1589649730814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="97" width="583" height="843" key="find.popup/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589400307651" />
+    <state x="672" y="97" width="583" height="843" key="find.popup/0.0.1920.1040/1920.0.1920.1040/-1440.180.1440.860@0.0.1920.1040" timestamp="1589649730814" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588703679008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
