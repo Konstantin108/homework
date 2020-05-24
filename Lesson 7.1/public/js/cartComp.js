@@ -23,30 +23,32 @@ Vue.component('cart', {
                     });
             }
         },
-        remove(product) {
-            let find = this.cartItems.find(el => el.id_product === product.id_product);
-            if (find.quantity === 1) {
-                this.$parent.deleteJson('/api/cart.product.id_product', product)
+        remove(item) {
+            if (item.quantity > 1) {
+                this.$parent.putJson(`/api/cart/${item.id_product}`, {quantity: -1})
                     .then(data => {
                         if (data.result === 1) {
-                            this.cartItems.splice(this.cartItems.indexOf(product), 1)
+                            item.quantity--;
                         }
                     });
             } else {
-                this.$parent.postJson('/api/cart/${find.id_product}', {quantity: -1});
-                find.quantity--;
+                this.$parent.deleteJson(`/api/cart/${item.id_product}`)
+                    .then(data => {
+                        if (data.result === 1) {
+                            this.cartItems.splice(this.cartItems.indexOf(item), 1);
+                        }
+                    })
             }
         }
     },
     mounted() {
-        this.$parent.getJson(`${API + this.cartUrl}`)
+        this.$parent.getJson('/api/cart')
             .then(data => {
                 for (let el of data.contents) {
                     this.cartItems.push(el);
                 }
             });
-    }
-    ,
+    },
     template: `
         <div>
             <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
