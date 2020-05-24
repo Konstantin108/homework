@@ -778,5 +778,145 @@
         "time": "25 May 2020, 12:35:58 am",
         "prod_name": "Клавиатура",
         "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:49:02 am",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:49:03 am",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:49:03 am",
+        "prod_name": "Геймпад",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:49:03 am",
+        "prod_name": "Клавиатура",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:52:30 am",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:52:30 am",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:30 am",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:52:30 am",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:31 am",
+        "prod_name": "Геймпад",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:52:31 am",
+        "prod_name": "Геймпад",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:32 am",
+        "prod_name": "Клавиатура",
+        "action": "add"
+    },
+    {
+        "time": "25 May 2020, 12:52:32 am",
+        "prod_name": "Клавиатура",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:32 am",
+        "prod_name": "Клавиатура",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:32 am",
+        "prod_name": "Геймпад",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:33 am",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:33 am",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:34 am",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:35 am",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:35 am",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:52:35 am",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:36 am",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:36 am",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:52:36 am",
+        "prod_name": "Геймпад",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:36 am",
+        "prod_name": "Геймпад",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:37 am",
+        "prod_name": "Геймпад",
+        "action": "remove"
+    },
+    {
+        "time": "25 May 2020, 12:52:37 am",
+        "prod_name": "Клавиатура",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:37 am",
+        "prod_name": "Клавиатура",
+        "action": "change"
+    },
+    {
+        "time": "25 May 2020, 12:52:37 am",
+        "prod_name": "Клавиатура",
+        "action": "remove"
     }
 ]
